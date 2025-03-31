@@ -1,0 +1,19 @@
+{
+    "mappings": [
+      "/content/trek/:/",
+      "/content/trek/configuration:/.helix/config.json",
+      "/content/trek/metadata:/metadata.json",
+      "/content/trek/configs:/configs.json",
+      "/content/trek/configs-stage:/configs-stage.json",
+      "/content/trek/configs-dev:/configs-dev.json",
+      "/content/trek/redirects:/redirects.json",
+      "/content/trek/placeholders:/placeholders.json",
+      "/content/trek/products/recommended-products:/products/recommended-products.json",
+      "/content/trek/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/dam/trek/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/trek",
+      "/content/dam/trek/images/products/"
+    ]
+}
