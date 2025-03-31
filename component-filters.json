@@ -33,6 +33,7 @@
   {
     "id": "section",
     "components": [
+      "video-hero",
       "text",
       "image",
       "button",
