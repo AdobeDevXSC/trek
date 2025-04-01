@@ -14,13 +14,25 @@ main .video-hero {
   margin: 100px 0;
 }
 
+main .video-hero .hero-text {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+main .video-hero .button-group {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
+
+main .video-hero .button-group > div {
+  display:flex;
+  flex-direction: row;
+}
+
 main .video-hero h1 {
   color: white;
-  
-  /* position: absolute;
-  top:400px;
-  left: 50px; */
-
   font-family: AvalonBold, Arial, Helvetica, sans-serif;
   font-size: 42px;
   font-style: normal;
@@ -33,16 +45,17 @@ main .video-hero h1 {
 
 main .video-hero h2 {
   color: white;
-  /* position: absolute;
-  top: 460px;
-  left: 50px; */
-
   font-family: AvalonBold, Arial, Helvetica, sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-variant-caps: normal;
   font-variant-east-asian: normal;
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: 400;
+}
+
+main .video-hero .button-group a {
+  flex: 0 1 auto;
+  margin-right: .25rem;
 }

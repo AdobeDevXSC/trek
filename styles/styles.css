@@ -14,7 +14,7 @@
 
  :root {
   /* general properties */
-  --primary-color: #8821f4;
+  --primary-color: white;
   --secondary-color: #3C1268;
   /* general borders */
   --border: none;
@@ -39,10 +39,10 @@
   --heading-border-radius: 0;
   --heading-box-shadow: none;
   /* button properties */
-  --button-radius: 30px;
+  --button-radius: 0;
   --button-padding: 10px 30px;
   --button-primary-border: 2px solid var(--primary-color);
-  --button-primary-background: var(--primary-color);
+  --button-primary-background: white;
   --button-primary-color: white;
   --button-secondary-border: 2px solid var(--secondary-color);
   --button-secondary-background: none;
