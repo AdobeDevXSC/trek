@@ -16,3 +16,9 @@
   src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+@font-face {
+  font-family:'AvalonBold';
+  font-weight: normal;
+  src: url('https://s3.lightboxcdn.com/vendors/1f262582-bf92-4a2b-a871-d34e7872844b/uploads/74fe3eec-78ad-4d61-9523-571d418e8eb7/AvalonBold.woff2') format('woff2');
+  }

@@ -203,7 +203,7 @@
   --background-color: var(--color-neutral-50);
   --nav-height: 6.4rem;
   --med-grid-layout: 792px;
-  --large-grid-layout: 1400px;
+  --large-grid-layout: 100%
   --article-width: 900px;
 }
 
@@ -250,7 +250,7 @@ main .block {
 } */
 
 main {
-  margin-top: 170px;
+  /* margin-top: 170px; */
   flex: 1;
 }
 
@@ -636,7 +636,7 @@ main .default-content-wrapper a.button.secondary {
 
 /* sections */
 main .section {
-  padding: 2rem 15px;
+  /* padding: 2rem 15px; */
   background-color: var(--background-color);
 }
 
@@ -661,7 +661,7 @@ main .section.black-text {
 @media (width >=1024px) {
   .section > div {
     max-width: var(--large-grid-layout);
-    margin: auto;
+    /* margin: auto; */
   }
 }
 

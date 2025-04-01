@@ -361,6 +361,13 @@
         "multi": false
       },
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "video-reference",
+        "label": "Video",
+        "multi": false
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "heading",

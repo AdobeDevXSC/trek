@@ -1,0 +1,30 @@
+main .video-hero video {
+  width: 100vw;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  max-height: 790px;
+}
+
+main .video-hero {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  max-height: 800px;
+  /* z-index: 0; */
+}
+
+main .video-hero h1 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+
+  font-family: AvalonBold, Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
