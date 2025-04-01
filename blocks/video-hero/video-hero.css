@@ -10,7 +10,6 @@ main .video-hero {
   width: 100%;
   /* position: relative; */
   max-height: 800px;
-  /* z-index: 0; */
   margin: 100px 0;
 }
 
