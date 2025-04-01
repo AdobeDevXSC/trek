@@ -23,11 +23,14 @@ function makeVideo(element, videoSrcs, media) {
 }
 
 export default async function decorate(block) {
+  const old = block.querySelector('div:first-child');
+  const referenceVideo = block.querySelector('div:nth-child(2)'); // for the new block structure
+  const h1 = block.querySelector('div:has(h1)');
+  block.removeChild(referenceVideo);
+  block.removeChild(old); // remove the old div, if it exists
+  block.removeChild(h1);
   [...block.children].forEach((row) => {
-    console.log(row);
-    // if(row.querySelector('a')) {
-    //   const hrefs = row.querySelectorAll('a');
-    //   makeVideo(row, hrefs, ['media="(min-width: 1024px)"', 'media="(min-width: 768px)"', 'media="(min-width: 0px)"']);
-    // }
+    console.log(h1);
+    row.prepend(h1); // move the h1 to the first row
   });
 }

@@ -8,19 +8,37 @@ main .video-hero video {
 main .video-hero {
   background-color: black;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   max-height: 800px;
   /* z-index: 0; */
+  margin: 100px 0;
 }
 
 main .video-hero h1 {
   color: white;
-  position: absolute;
-  bottom: 0;
-  left: 50px;
+  
+  /* position: absolute;
+  top:400px;
+  left: 50px; */
 
   font-family: AvalonBold, Arial, Helvetica, sans-serif;
   font-size: 42px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
+
+main .video-hero h2 {
+  color: white;
+  /* position: absolute;
+  top: 460px;
+  left: 50px; */
+
+  font-family: AvalonBold, Arial, Helvetica, sans-serif;
+  font-size: 36px;
   font-style: normal;
   font-variant-caps: normal;
   font-variant-east-asian: normal;

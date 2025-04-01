@@ -354,13 +354,6 @@
     "id": "video-hero",
     "fields": [
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "video",
-        "label": "Video",
-        "multi": false
-      },
-      {
         "component": "reference",
         "valueType": "string",
         "name": "video-reference",
@@ -398,21 +391,42 @@
         "component": "text",
         "valueType": "string",
         "name": "hero_linkTitle",
-        "label": "Button Title Attribute",
+        "label": "Button 1 Title Attribute",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "hero_linkText",
-        "label": "Button Text",
+        "label": "Button 1 Text",
         "value": ""
       },
       {
         "component": "aem-content",
         "name": "hero_link",
         "value": "",
-        "label": "Button Link",
+        "label": "Button 1 Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero2_linkTitle",
+        "label": "Button 2 Title Attribute",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero2_linkText",
+        "label": "Button 2 Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "hero2_link",
+        "value": "",
+        "label": "Button 2 Link",
         "valueType": "string"
       }
     ]
