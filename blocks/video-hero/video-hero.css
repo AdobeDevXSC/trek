@@ -7,27 +7,36 @@ main .video-hero video {
 
 main .video-hero {
   background-color: black;
-  width: 100%;
-  /* position: relative; */
-  max-height: 800px;
-  margin: 100px 0;
+  /* width: 100vw;
+  height: 100vh; */
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: white;
 }
 
-main .video-hero .hero-text {
+main .video-hero .hero-content {
+  position: relative;
   position: absolute;
-  top: 60%;
-  left: 5%;
+  z-index: 10;
+  text-align: left;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 142rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-main .video-hero .button-group {
-  position: absolute;
-  top: 90%;
-  left: 5%;
-}
-
-main .video-hero .button-group > div {
+main .video-hero .hero-content > div:has(.button-container) {
   display:flex;
   flex-direction: row;
+}
+
+main .video-hero .hero-content > div > p.button-container {
+  margin-right: 10px;
 }
 
 main .video-hero h1 {

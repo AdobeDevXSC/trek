@@ -451,7 +451,12 @@
               {
                 "name": "Right",
                 "value": "align-right"
+              },
+              {
+                "name": "Center",
+                "value": "align-center"
               }
+
             ]
           },
           {
