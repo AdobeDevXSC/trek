@@ -41,7 +41,10 @@ export default async function decorate(block) {
   title.classList.add('hero-text');
 
   buttonGrp.querySelector('div').prepend(subtitle.querySelector('.button-container'));
-  buttonGrp.classList.add('button-group');
+  buttonGrp.classList.add('hero-content');
+
+  block.querySelector('.hero-content').prepend(block.querySelector('.hero-text > div'));
+  block.removeChild(block.querySelector('.hero-text'));
 
   // const referenceVideo = block.querySelector('div:nth-child(2)'); // for the new block structure
   // const h1 = block.querySelector('div:has(h1)');
