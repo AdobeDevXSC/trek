@@ -316,7 +316,7 @@ async function loadThemeSpreadSheetConfig() {
  */
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
-  //await initializeDropins();
+  await initializeDropins();
   await loadThemeSpreadSheetConfig();
   decorateTemplateAndTheme();
 
