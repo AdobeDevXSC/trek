@@ -351,6 +351,32 @@
     ]
   },
   {
+    "id": "ai-hero",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "hero_text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "value": "",
+        "label": "Picture",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "video-hero",
     "fields": [
       {

@@ -11,6 +11,11 @@
   flex-direction: row-reverse;
 }
 
+.teaser.align-center {
+  display: flex;
+  flex-direction: column;
+}
+
 .teaser.align-right .teaser-img-col {
   display: flex;
   flex-direction: row-reverse;
